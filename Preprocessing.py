@@ -1,6 +1,6 @@
 import pandas as pd
 import re
-test_df = pd.read_csv('/Users/rileypowell/Downloads/user_journey_raw.csv')
+test_df = pd.read_csv('user_journey_raw.csv')
 pd.set_option('display.max_columns',None)
 # user_journey_col = df['user_journey']
 
