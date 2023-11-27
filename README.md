@@ -1,5 +1,5 @@
 # User_Journey_Analysis
-Hello and welcome to an anlysis of users journeys through a set of webpages. This project uses a public data set to create a pipeline that cleans, transforms, and creates several metrics based on a users journey through webpages. The data is given as a CSV with the following columns: user_id (int(4)), session_id (int(7)), subscription_type (string), user_journey (string).
+Hello and welcome to an analysis of users journeys through a set of webpages. This project uses a public data set to create a pipeline that cleans, transforms, and creates several metrics based on a users journey through webpages. The data is given as a CSV with the following columns: user_id (int(4)), session_id (int(7)), subscription_type (string), user_journey (string).
 The project is split into two Python files Preprocessing.py and Analysis.py:
 * Preprocessing.py contains three functions: Repeat_cleaner, grouping_strings, unnecessary_value.
   * Repeat_cleaner: Iterates through the user_journey column and removes webpages that are repeated sequentially.
